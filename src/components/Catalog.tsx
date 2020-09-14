@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { addProductToCart } from '../store/modules/cart/actions';
 
 import { IProduct } from '../store/modules/cart/types';
-import api from '../store/services/api';
+import api from '../services/api';
 
 const Catalog: React.FC = () => {
   const dispatch = useDispatch();
