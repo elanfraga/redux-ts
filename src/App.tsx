@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 
-import Catalog from './store/components/Catalog';
+import Catalog from './components/Catalog';
 
 const App: React.FC = () => {
   return (
